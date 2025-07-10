@@ -30,4 +30,26 @@ https://github.com/varunmarulkar/ShoppyGlobe-E-Commerce.git
 2. Install dependencies
 npm install
 
-3. 
+3. Run the App
+npm run dev
+
+
+⭐ Pages
+
+/ – Home (product list)
+
+/products/:id – Product details
+
+/cart – Cart page
+
+/checkout – Checkout page
+
+/orderdelivery – Order success page
+
+/login – Login page
+
+/about – About project
+
+
+Author
+Made by Varun Marulkar.
