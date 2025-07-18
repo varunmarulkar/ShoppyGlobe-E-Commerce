@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { dummyData } from '../Utils/constant'
+import { dummyData } from '../utils/constant'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { addItems } from '../Utils/CartSlice'
+import { addItems } from '../utils/CartSlice'
 
 const ProductInfo = () => {
     const [data, setData] = useState({})

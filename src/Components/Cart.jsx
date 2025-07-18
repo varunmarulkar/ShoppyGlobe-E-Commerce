@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { deleteItems } from '../Utils/CartSlice'
+import { deleteItems } from '../utils/CartSlice'
 import { Link } from 'react-router-dom'
 import CartItem from './CartItem'
 
@@ -42,4 +42,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default Cart

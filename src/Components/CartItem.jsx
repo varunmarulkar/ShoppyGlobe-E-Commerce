@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { removeItems, increasePrice, decreasePrice } from '../Utils/CartSlice'
+import { removeItems, increasePrice, decreasePrice } from '../utils/CartSlice'
 
 const CartItem = ({ cart }) => {
   const dispatch = useDispatch()

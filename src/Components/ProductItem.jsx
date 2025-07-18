@@ -3,7 +3,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { addItems,removeItems } from '../utils/CartSlice'
+import { addItems } from '../utils/CartSlice'
 
 const ProductItem = (props) => {
 

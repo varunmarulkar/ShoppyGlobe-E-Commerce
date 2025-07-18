@@ -1,7 +1,7 @@
 // Header of the ShoppyGlobe
 
 import React from 'react'
-import { headerIcon } from '../Utils/constant'
+import { headerIcon } from '../utils/constant'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
