@@ -16,7 +16,7 @@ const Error=lazy(()=> import("./Components/Error.jsx"))
 const Login=lazy(()=> import("./Components/Login.jsx"))
 
 
-
+// Define routes for different pages
 const router=createBrowserRouter([
   {
    path:"/",

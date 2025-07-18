@@ -1,3 +1,5 @@
+// Display all cart items
+
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { deleteItems } from '../Utils/CartSlice'
@@ -5,6 +7,7 @@ import { Link } from 'react-router-dom'
 import CartItem from './CartItem'
 
 const Cart = () => {
+  // Get cart items from Redux store
   const cartItems = useSelector((store) => store.cart.items)
   const dispatch = useDispatch()
 

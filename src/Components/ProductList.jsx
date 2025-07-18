@@ -1,8 +1,11 @@
+// Displaying all products with search functionality
+
 import React from 'react'
 import ProductItem from './ProductItem'
 import Shimmer from './Shimmer'
-import useProductList from '../Utils/useProductList'
+import useProductList from '../utils/useProductList'
 
+//Using custom hook to get products
 const ProductList = () => {
     const { defaultData, filteredData, setFilteredData, error } = useProductList()
 

@@ -1,3 +1,5 @@
+// Header of the ShoppyGlobe
+
 import React from 'react'
 import { headerIcon } from '../Utils/constant'
 import { Link } from 'react-router-dom'

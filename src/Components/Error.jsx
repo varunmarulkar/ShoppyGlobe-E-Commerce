@@ -1,3 +1,5 @@
+//Not found page for unknown routes
+
 import React from 'react'
 
 const Error = () => {
