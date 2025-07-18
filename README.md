@@ -27,6 +27,7 @@ ShoppyGlobe is a basic e-commerce web application built using React, Redux Toolk
 1. Clone the repository
 https://github.com/varunmarulkar/ShoppyGlobe-E-Commerce.git
 
+
 2. Install dependencies
 npm install
 
