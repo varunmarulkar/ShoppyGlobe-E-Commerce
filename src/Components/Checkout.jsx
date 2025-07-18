@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
+import { removeItems } from '../utils/CartSlice'
 
 const Checkout = () => {
   const cartItems = useSelector((store) => store.cart.items)
